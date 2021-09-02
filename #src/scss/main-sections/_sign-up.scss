@@ -1,0 +1,46 @@
+.sign-up {
+    background: #f0f0f0;
+    color: #3cd072;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    // .sign-up__container_bg-black
+    &_bg-black {
+        background: #000000;
+    }
+
+    // .sign-up__container
+    &__container {
+        padding: 50px 0px 50px 0px;
+    }
+
+    // .sign-up__header
+    &__header {
+        color: #000000;
+
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 0px 0px 20px 0px;
+
+        // .sign-up__header_green
+        &_green {
+            color: #3bd071;
+        }
+    }
+
+    // .sign-up__form
+    &__form {
+        display: flex;
+        justify-content: space-between;
+    }
+    // .sign-up__input
+    &__input {
+        flex: 1 1 710px;
+    }
+    // .sign-up__button
+    &__button {
+        flex: 1 0 auto;
+    }
+}

@@ -1,0 +1,95 @@
+.header {
+    background: url(../img/header.png) top no-repeat scroll#3cd072;
+    background-size: cover;
+    background-position: center;
+    height: 625px;
+    position: relative;
+    z-index: 5;
+
+    // .header__container
+    &__container {
+        display: flex;
+    }
+
+    // .header__column
+    &__column {
+        flex: 0 1 50%;
+    }
+    // .header__title
+    &__title {
+        color: #ffffff;
+        font-family: "SF Compact Text";
+        font-size: 35px;
+        line-height: 22.63px;
+        text-transform: uppercase;
+        letter-spacing: -2px;
+        padding: 60px 0px 105px 0px;
+    }
+    // .header__battery
+    &__battery {
+        display: flex;
+        margin: 0px 0px 24px 0px;
+    }
+
+    // .header__search-icon
+    &__search-icon {
+        margin: 0px 27px 0px 0px;
+    }
+
+    // .header__battery-text
+    &__battery-text {
+        color: #ffffff;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    // .header__semibold
+    &__semibold {
+        font-weight: 600;
+    }
+    // .header__white-text
+    &__white-text {
+        color: #e8e9e8;
+        margin: 0px 0px 12px 0px;
+    }
+}
+
+.heder-form {
+    color: #ffffff;
+    line-height: 24px;
+
+    // .heder-form__title
+    &__title {
+        margin: 0px 0px 8px 0px;
+    }
+
+    // .heder-form__send
+    &__send {
+        display: flex;
+        .input {
+            flex: 1 1 auto;
+        }
+
+        .button {
+            flex: 0 0 auto;
+        }
+    }
+}
+
+.header-phones {
+    position: relative;
+
+    // .header-pthones__item
+    &__item {
+        display: block;
+        position: absolute;
+        &:first-child {
+            z-index: 10;
+            right: 0;
+            top: 125px;
+        }
+        &:last-child {
+            right: 130px;
+            top: 82px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.running {
+    background: url(../img/running-bg-image.png) #3cd072;
+    background-size: cover;
+    // .running__container
+    &__container {
+        display: flex;
+    }
+    // .running__column
+    &__column {
+        flex: 0 1 50%;
+        position: relative;
+        // .running__column_padding
+        &_padding {
+            padding: 70px 20px 40px 0px;
+        }
+    }
+    // .running__header
+    &__header {
+        display: flex;
+        align-items: center;
+        margin: 0px 0px 17px 0px;
+    }
+    // .running__header-icon
+    &__header-icon {
+        object-fit: contain;
+        margin: 0px 30px 0px 0px;
+    }
+    // .running__title
+    &__title {
+        color: #ffffff;
+
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 32px;
+    }
+    // .running__text
+    &__text {
+        font-family: "Helvetica Neue";
+        line-height: 24px;
+        margin: 0px 0px 31px 0px;
+    }
+    // .running__checkset
+    &__checkset {
+        display: flex;
+        align-items: center;
+        margin: 0px 0px 28px 0px;
+        padding: 0px 30px 0px 0px;
+        &:last-child {
+            margin: 0;
+        }
+    }
+    // .running__check-icon
+    &__check-icon {
+        object-fit: contain;
+        margin: 0px 25px 0px 0px;
+    }
+    // .running__check-titile
+    &__check-titile {
+        color: #ffffff;
+
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    // .running__images
+    &__images {
+        // position: relative;
+    }
+    // .running__iphone
+    &__iphone {
+        position: absolute;
+        object-fit: contain;
+        bottom: 0;
+        &:nth-child(1) {
+            left: -20px;
+        }
+
+        &:nth-child(2) {
+            left: 145px;
+        }
+
+        &:nth-child(3) {
+            right: -75px;
+        }
+    }
+}

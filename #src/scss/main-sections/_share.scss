@@ -1,0 +1,64 @@
+.share-phones {
+    position: relative;
+    // .share-phones__item
+    &__item {
+        position: absolute;
+        &:first-child {
+            top: 170px;
+            left: -90px;
+        }
+        &:last-child {
+            top: -40px;
+            left: 75px;
+            z-index: 2;
+        }
+    }
+}
+
+.share-about {
+    // .share-about__title
+    margin: 0px 0px 50px 0px;
+    &:last-child {
+        margin: 0;
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+        margin: 0px 0px 15px 0px;
+    }
+
+    // .share-about__icon
+    &__icon {
+        margin: 0px 25px 0px 0px;
+    }
+    // .share-about__title-text
+    &__title-text {
+        color: #3cd072;
+
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    // .share-about__text
+    &__text {
+    }
+}
+
+.share {
+    position: relative;
+    background: #f0f0f0;
+    // .share__container
+    &__container {
+        display: flex;
+    }
+    // .share__column
+    &__column {
+        flex: 0 1 50%;
+
+        // .share__column_padding
+        &_padding {
+            padding: 140px 0px 90px 90px;
+        }
+    }
+}

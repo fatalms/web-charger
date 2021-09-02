@@ -1,0 +1,62 @@
+.easy {
+    background: #ffffff;
+    // .easy__container
+    &__container {
+    }
+    // .easy__header
+    &__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    // .easy__icon
+    &__icon {
+        margin: 30px 0px 25px 0px;
+    }
+    // .easy__as
+    &__as {
+        margin: 0px 0px 15px 0px;
+    }
+    // .easy__title
+    &__title {
+        color: #3cd072;
+        font-size: 36px;
+        margin: 0px 0px 45px 0px;
+    }
+
+    // .easy__bottom
+    &__bottom {
+        display: flex;
+        margin: 0px -12px;
+    }
+
+    // .easy__column
+    &__column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px 12px;
+        flex: 0 1 33.3333%;
+    }
+
+    // .easy__column-icon
+    &__column-icon {
+        margin: 0px 0px 25px 0px;
+    }
+
+    // .easy__column-title
+    &__column-title {
+        line-height: 32px;
+        margin: 0px 0px 50px 0px;
+    }
+    // .easy__iphone
+    &__iphone {
+        object-fit: fill;
+    }
+}

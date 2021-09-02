@@ -1,0 +1,23 @@
+.footer {
+    // .footer__container
+    &__container {
+        padding: 50px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    // .footer__block
+    &__block {
+        display: flex;
+        align-items: center;
+        img {
+            margin: 0px 20px 0px 0px;
+            display: inline-block;
+        }
+    }
+    // .footer__text
+    &__text {
+        color: #909090;
+        line-height: 24px;
+    }
+}
